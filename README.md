@@ -1,8 +1,10 @@
 # Reading Time Calculator React Component
 
-![npm](https://img.shields.io/npm/v/reading-time-calculator)
-![npm bundle size](https://img.shields.io/bundlephobia/min/reading-time-calculator)
-![GitHub](https://img.shields.io/github/license/yourusername/reading-time-calculator)
+[//]: # (![npm]&#40;https://img.shields.io/npm/v/@cycle/core/canary.svg&#41;)
+
+[//]: # (![npm bundle size]&#40;https://img.shields.io/bundlephobia/min/wpm-calculator-react.git&#41;)
+
+[//]: # (![GitHub]&#40;https://img.shields.io/github/license/ArtemPchela/wpm-calculator-react&#41;)
 
 A React component for calculating estimated reading time for a given text.
 
