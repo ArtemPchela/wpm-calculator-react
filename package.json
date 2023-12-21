@@ -1,6 +1,6 @@
 {
   "name": "wpm-calculator-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for calculating reading time",
   "main": "build/index.js",
   "types": "build/index.d.ts",

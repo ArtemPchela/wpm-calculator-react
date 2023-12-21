@@ -43,11 +43,30 @@ export default App;
 
 ## Props
 
-* text (required): The text content for which you want to calculate the reading time.
+* **text** (required): The text content for which you want to calculate the reading time.
 
-* className (optional): An optional CSS class to style the component.
+* **className** (optional): An optional CSS class to style the component.
 
-* wpm (optional): The reading speed in words per minute (default: 238).
+you can add your own **className** and style it in your css file
+ 
+```tsx
+<Wpm text={text} className="your-class_name"/>
+```
+
+or wrap with your own div and style it
+
+```tsx
+<div className="your-class_name">
+    <Wpm text={text} />
+</div>
+```
+* **wpm** (optional): The reading speed in words per minute (default: 238).
+
+or add your own **wpm**
+
+ ```tsx
+<Wpm text={text} wpm={250}/>
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
