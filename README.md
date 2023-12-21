@@ -10,12 +10,12 @@ A React component for calculating estimated reading time for a given text.
 
 ## Installation
 
-You can install the `reading-time-calculator` package via npm or yarn:
+You can install the `wpm-calculator-react` package via npm or yarn:
 
 ```bash
-npm install reading-time-calculator
+npm i wpm-calculator-react
 # OR
-yarn add reading-time-calculator
+yarn add wpm-calculator-react
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Import the ReadingTimeCalculator component and use it in your React application:
 
 ```jsx
 import React from "react";
-import ReadingTimeCalculator from "reading-time-calculator";
+import Wpm from "wpm-calculator-react";
 
 function App() {
   const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit...";
@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <h1>My Blog Post</h1>
-      <ReadingTimeCalculator text={text} />
+      <Wpm text={text} />
       <p>{text}</p>
     </div>
   );
@@ -49,16 +49,6 @@ export default App;
 
 * wpm (optional): The reading speed in words per minute (default: 238).
 
-## Development
-
-If you want to contribute to this project or modify it for your specific needs, you can follow these steps:
-```bash
-cd reading-time-calculator
-npm install
-# OR
-yarn install
-```
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
@@ -66,4 +56,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Author
 Created by Artsiom Pchaliankou.
 
-If you have any questions or suggestions, please feel free to open an issue or contact me at pchelenkovartem@gmail.com.
+If you have any questions or suggestions, please feel free to open an issue or contact me at [pchelenkovartem@gmail.com](pchelenkovartem@gmail.com).
