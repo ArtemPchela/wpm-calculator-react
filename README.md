@@ -20,7 +20,7 @@ yarn add wpm-calculator-react
 
 ## Usage
 
-Import the ReadingTimeCalculator component and use it in your React application:
+Import the wpm-calculator-react component and use it in your React application:
 
 ```jsx
 import React from "react";
@@ -60,7 +60,7 @@ or wrap with your own div and style it
     <Wpm text={text} />
 </div>
 ```
-* **wpm** (optional): The reading speed in words per minute (default: 238).
+* **wpm** (optional): The reading speed in words per minute (default: 183).
 
 or add your own **wpm**
 
