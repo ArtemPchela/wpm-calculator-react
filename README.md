@@ -1,10 +1,4 @@
-# Reading Time Calculator React Component
-
-[//]: # (![npm]&#40;https://img.shields.io/npm/v/@cycle/core/canary.svg&#41;)
-
-[//]: # (![npm bundle size]&#40;https://img.shields.io/bundlephobia/min/wpm-calculator-react.git&#41;)
-
-[//]: # (![GitHub]&#40;https://img.shields.io/github/license/ArtemPchela/wpm-calculator-react&#41;)
+# Words per minutes calculator "wpm-calculator-react" React Component
 
 A React component for calculating estimated reading time for a given text.
 
@@ -39,6 +33,14 @@ function App() {
 }
 
 export default App;
+```
+
+Add text after of before `Wpm` 
+
+```tsx
+<div>
+    <Wpm text={text} /> min read
+</div>
 ```
 
 ## Props
